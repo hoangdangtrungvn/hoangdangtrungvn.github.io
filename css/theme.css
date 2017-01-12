@@ -22,8 +22,9 @@ h6 { font-size: .75em; }
 
 .sidebar li { margin-top: .7em; line-height: 1em; }
 
-ul.sideBarTags { list-style: none; }
+ul.sideBarTags, ul.sideBarPosts { list-style: none; }
 ul.sideBarTags li:before { content: '\f02b'; font-family: 'FontAwesome'; float: left; margin-left: -1.5em; color: #ddd; }
+ul.sideBarPosts li:before { content: '\f15c'; font-family: 'FontAwesome'; float: left; margin-left: -1.5em; color: #ddd; }
 
 .well { background-color: #444; box-shadow: 0px 0px 0px 0px, 0px 8px 16px rgba(0, 0, 0, 0.2); border: 0px; border-radius: 6px; }
 
