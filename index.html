@@ -25,22 +25,26 @@ layout: page
 </div>
 {% endfor %}
 <div class="post-footer">
-	<div class="column-full">
-		<!-- Pagination links -->
-		<div class="pagination dark">
-			{% if paginator.previous_page %}
-				<a href="{{ paginator.previous_page_path }}" class="page">&lsaquo;</a>
-			{% endif %}
-			{% for page in (1..paginator.total_pages) %}
-				{% if page == paginator.page %}
-					<a class="page active">{{ page }}</a>
-				{% else %}
-					<a class="page">{{ page }}</a>
+	{% if paginator.total_pages > 1 %}
+		<div class="column-full">
+			<!-- Pagination links -->
+			<div class="pagination dark">
+				{% if paginator.previous_page %}
+					<a href="{{ paginator.previous_page_path }}" class="page">&lsaquo;</a>
 				{% endif %}
-			{% endfor %}
-			{% if paginator.next_page %}
-				<a href="{{ paginator.next_page_path }}" class="page">&rsaquo;</a>
-			{% endif %}
+				{% for page in (1..paginator.total_pages) %}
+					{% if page == paginator.page %}
+      <em>{{ page }}</em>
+    {% elsif page == 1 %}
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+    {% else %}
+      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+				{% endfor %}
+				{% if paginator.next_page %}
+					<a href="{{ paginator.next_page_path }}" class="page">&rsaquo;</a>
+				{% endif %}
+			</div>
 		</div>
-	</div>
+	{% endif %}
 </div>
