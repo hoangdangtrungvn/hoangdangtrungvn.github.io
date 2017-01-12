@@ -36,7 +36,7 @@ layout: page
 					{% if page == paginator.page %}
 						<a class="page active">{{ page }}</a>
 					{% elsif page == 1 %}
-						<a class="page" href="{{ site.url | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+						<a class="page" href="{{ site.baseurl }}">{{ page }}</a>
 					{% else %}
 						<a class="page" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
 					{% endif %}
