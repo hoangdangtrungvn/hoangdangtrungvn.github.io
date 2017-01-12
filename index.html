@@ -30,7 +30,7 @@ layout: page
 			<!-- Pagination links -->
 			<div class="pagination dark">
 				{% if paginator.previous_page %}
-					<a href="{{ paginator.previous_page_path }}" class="page">&lsaquo;</a>
+					<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="page">&lsaquo;</a>
 				{% endif %}
 				{% for page in (1..paginator.total_pages) %}
 					{% if page == paginator.page %}
@@ -40,7 +40,7 @@ layout: page
 					{% endif %}
 				{% endfor %}
 				{% if paginator.next_page %}
-					<a href="{{ paginator.next_page_path }}" class="page">&rsaquo;</a>
+					<a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="page">&rsaquo;</a>
 				{% endif %}
 			</div>
 		</div>
