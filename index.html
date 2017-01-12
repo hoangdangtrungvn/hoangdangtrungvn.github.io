@@ -33,7 +33,10 @@ layout: page
 			{% endif %}
 			{% for page in paginator.total_pages %}
 				{% if page == paginator.page %}
-				<a class="page">{{ paginator.page }}</a>
+					<a class="page active">{{ paginator.page }}</a>
+				{% else %}
+					<a class="page">{{ paginator.page }}</a>
+				{% endif %}
 			{% endfor %}
 			{% if paginator.next_page %}
 				<a href="{{ paginator.next_page_path }}" class="page">&rsaquo;</a>
