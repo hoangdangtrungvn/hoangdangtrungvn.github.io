@@ -31,11 +31,11 @@ layout: page
 			{% if paginator.previous_page %}
 				<a href="{{ paginator.previous_page_path }}" class="page">&lsaquo;</a>
 			{% endif %}
-			{% for page in paginator.total_pages %}
+			{% for page in (1..paginator.total_pages) %}
 				{% if page == paginator.page %}
-					<a class="page active">{{ paginator.page }}</a>
+					<a class="page active">{{ page }}</a>
 				{% else %}
-					<a class="page">{{ paginator.page }}</a>
+					<a class="page">{{ page }}</a>
 				{% endif %}
 			{% endfor %}
 			{% if paginator.next_page %}
