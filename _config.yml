@@ -1,7 +1,7 @@
 # Jekyll configuration
 
 name: Đăng Trung IT
-description: Software Developer
+description: Blog chuyên về công nghệ thông và những vấn đề xung quanh
 
 # Url is currently only used only for the RSS feed in feed.xml
 url: https://hoangdangtrungvn.github.io
