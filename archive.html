@@ -13,7 +13,11 @@ title: Lưu trữ
 				<ul class="sideBarPosts">
 					{% capture year %}{{currentyear}}{% endcapture %} 
 			{% endif %}
-			<li><a href="{{ post.url | prepend: site.baseurl | prepend: site.url}}">{{ post.title }}</a></li>
+			<li>
+				<time>{{ post.date | date: "%d-%m-%Y" }}</time>
+				<a href="{{ post.url | prepend: site.baseurl | prepend: site.url}}">{{ post.title }}</a>
+				<p>{{post.description}}</p>
+			</li>
 		{% endfor %}
 	</div>
 </div>

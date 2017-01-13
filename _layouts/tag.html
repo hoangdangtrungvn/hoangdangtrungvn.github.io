@@ -8,7 +8,7 @@ layout: page
 			{% for post in site.posts %}
 				{% for tag in post.tags %}
 					{% if tag == page.tag %}
-						<li class="archive_list">
+						<li>
 							<time>{{ post.date | date: "%d-%m-%Y" }}</time>
 							<a href='{{post.url | prepend:site.baseurl | prepend:site.url}}'>{{post.title}}</a>
 							<p>{{post.description}}</p>
