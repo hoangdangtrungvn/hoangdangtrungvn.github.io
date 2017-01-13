@@ -75,8 +75,6 @@ ul.social-media .fa-rss:hover { -webkit-animation: rss 1s ease-in-out forwards; 
   50% { color: #FF6600; }
   100% { color: #3CA2A2; } }
 
-h3.post-title { padding-top: 10px; text-align: left; font-size: 1.6em; }
-
 div.post-meta { border: 1px solid #666666; border-width: 1px 0; margin: 0 0 20px; }
 div.post-meta ul { display: inline; padding-left: 0px; float: right; }
 div.post-meta ul > li { display: inline; padding: 0 0 5px 20px; }
