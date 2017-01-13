@@ -18,6 +18,7 @@ h6 { font-size: .75em; }
 
 .footer a { color: #ee4444; }
 
+.sidebar { margin-bottom: 20px }
 .sidebar li { margin-top: .7em; line-height: 1em; }
 
 ul.sideBarTags, ul.sideBarPosts { list-style: none; }
