@@ -115,7 +115,7 @@ nav.shrink .navbar-toggle { padding: 4px 5px; margin: 8px 15px 8px 0; }
 
 .share-bar { text-align: right; }
 
-ul.share-buttons { list-style: none; padding: 0; }
+ul.share-buttons { list-style: none; padding: 0; margin: 0; }
 ul.share-buttons li { display: inline-block; -webkit-transition: -webkit-transform .7s; -moz-transition: -moz-transform .7s; -ms-transition: -ms-transform .7s; -o-transition: -o-transform .7s; transition: transform .7s; }
 ul.share-buttons li .fa-facebook, ul.share-buttons li .fa-twitter, ul.share-buttons li .fa-google-plus, ul.share-buttons li .fa-linkedin, ul.share-buttons li .fa-envelope-o, ul.share-buttons li .fa-pinterest { color: #ffffff; }
 ul.share-buttons li a { text-decoration: none; }
