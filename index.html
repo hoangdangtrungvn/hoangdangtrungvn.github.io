@@ -26,25 +26,23 @@ layout: page
 {% endfor %}
 <div class="post-footer">
 	{% if paginator.total_pages > 1 %}
-		<div class="column-full">
-			<!-- Pagination links -->
-			<div class="pagination dark">
-				{% if paginator.previous_page %}
-					<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="page">&lsaquo;</a>
+		<!-- Pagination links -->
+		<div class="pagination">
+			{% if paginator.previous_page %}
+				<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="page">&lsaquo;</a>
+			{% endif %}
+			{% for page in (1..paginator.total_pages) %}
+				{% if page == paginator.page %}
+					<a class="page active">{{ page }}</a>
+				{% elsif page == 1 %}
+					<a class="page" href="{{ site.url }}">{{ page }}</a>
+				{% else %}
+					<a class="page" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
 				{% endif %}
-				{% for page in (1..paginator.total_pages) %}
-					{% if page == paginator.page %}
-						<a class="page active">{{ page }}</a>
-					{% elsif page == 1 %}
-						<a class="page" href="{{ site.url }}">{{ page }}</a>
-					{% else %}
-						<a class="page" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-					{% endif %}
-				{% endfor %}
-				{% if paginator.next_page %}
-					<a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="page">&rsaquo;</a>
-				{% endif %}
-			</div>
+			{% endfor %}
+			{% if paginator.next_page %}
+				<a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="page">&rsaquo;</a>
+			{% endif %}
 		</div>
 	{% endif %}
 </div>
