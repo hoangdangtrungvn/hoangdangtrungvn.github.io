@@ -3,6 +3,11 @@
 	<title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:url" content="{{ site.url | append: page.url }}" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="{{ page.title }}" />
+	<meta property="og:description" content="{{ page.description }}" />
+	<meta property="og:image" content="{{ page.image }}" />
 	<script src="{{site.baseurl | prepend:site.url}}/js/jquery.min.js"></script>
 	<script src="{{site.baseurl | prepend:site.url}}/js/bootstrap.min.js"></script>
 	<script src="{{site.baseurl | prepend:site.url}}/js/header.js"></script>
