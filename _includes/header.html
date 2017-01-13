@@ -6,7 +6,7 @@
 	<meta property="og:url" content="{{ site.url | append: site.baseurl | append: page.url }}" />
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content="{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}" />
-	<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}" />
+	<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
 	<meta property="og:image" content="{% if page.image %}{{ page.image }}{% else %}{{ site.url | append: site.baseurl }}/images/default.jpg{% endif %}" />
 	<meta property="fb:app_id" content="{{ site.facebook.app_id }}"/>
 	<script src="{{site.baseurl | prepend:site.url}}/js/jquery.min.js"></script>
