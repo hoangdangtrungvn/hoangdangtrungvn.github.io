@@ -54,25 +54,19 @@ ul.social-media .fa-lastfm:hover { -webkit-animation: lastfm 1s ease-in-out forw
 ul.social-media .fa-rss:hover { -webkit-animation: rss 1s ease-in-out forwards; animation: rss 1s ease-in-out forwards; }
 
 @-webkit-keyframes github { 0% { color: white; }
-  50% { color: #333333; }
-  100% { color: #3CA2A2; } }
+  100% { color: #333333; } }
 @-webkit-keyframes facebook { 0% { color: white; }
   100% { color: #365899; } }
 @-webkit-keyframes linkedin { 0% { color: white; }
-  50% { color: #4875B4; }
-  100% { color: #3CA2A2; } }
+  100% { color: #4875B4; } }
 @-webkit-keyframes codepen { 0% { color: white; }
-  50% { color: #000000; }
-  100% { color: #3CA2A2; } }
+  100% { color: #000000; } }
 @-webkit-keyframes instagram { 0% { color: white; }
-  50% { color: #517fa4; }
-  100% { color: #3CA2A2; } }
+  100% { color: #517fa4; } }
 @-webkit-keyframes lastfm { 0% { color: white; }
-  50% { color: #c3000d; }
-  100% { color: #3CA2A2; } }
+  100% { color: #c3000d; } }
 @-webkit-keyframes rss { 0% { color: white; }
-  50% { color: #FF6600; }
-  100% { color: #3CA2A2; } }
+  100% { color: #FF6600; } }
 
 div.post-meta { border: 1px solid #666666; border-width: 1px 0; margin: 0 0 20px; }
 div.post-meta ul { display: inline; padding-left: 0px; float: right; }
