@@ -5,7 +5,6 @@ description: Blog chuyên về công nghệ thông và những vấn đề xung 
 
 # Url is currently only used only for the RSS feed in feed.xml
 url: https://hoangdangtrungvn.github.io
-#url: http://localhost:4000
 
 # For a project page here should be a project name. Otherwise (for user's/organizaion's page leave it empty)
 baseurl: ''
@@ -32,10 +31,10 @@ social:
 # Google Analytics key, leave blank to ignore
 google_analytics_key:
 
-permalink: /:year/:month/:title
+# permalink: /:year/:month/:title
 
 # Enable for using pages, more details are here: http://jekyllrb.com/docs/pagination/
-paginate: 3
+paginate: 10
 paginate_path: "/blog/page:num/"
 
 highlighter: rouge
