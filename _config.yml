@@ -41,11 +41,11 @@ comments: true
 paginate: 3
 paginate_path: "/page:num/"
 
-#highlighter: rouge
+highlighter: rouge
 
 markdown: kramdown
 kramdown:
-  input: GFM # Enable GitHub Flavored Markdown (fenced code blocks)
+  input: GFM
   hard_wrap: true
 
 exclude: ['README.md', 'LICENSE']
