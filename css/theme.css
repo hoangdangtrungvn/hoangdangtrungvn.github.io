@@ -46,7 +46,7 @@ ul.social-media { text-align: center; padding: 0; }
 ul.social-media li { display: inline-block; }
 ul.social-media li > a { margin-left: 0.8em; margin-right: 0.8em; display: inline-block; color: white; }
 ul.social-media .fa-github:hover { -webkit-animation: github 1s ease-in-out forwards; animation: github 1s ease-in-out forwards; }
-ul.social-media .fa-stack-overflow:hover { -webkit-animation: stack-overflow 1s ease-in-out forwards; animation: stack-overflow 1s ease-in-out forwards; }
+ul.social-media .fa-facebook:hover { -webkit-animation: facebook 1s ease-in-out forwards; animation: facebook 1s ease-in-out forwards; }
 ul.social-media .fa-linkedin:hover { -webkit-animation: linkedin 1s ease-in-out forwards; animation: linkedin 1s ease-in-out forwards; }
 ul.social-media .fa-codepen:hover { -webkit-animation: codepen 1s ease-in-out forwards; animation: codepen 1s ease-in-out forwards; }
 ul.social-media .fa-instagram:hover { -webkit-animation: instagram 1s ease-in-out forwards; animation: instagram 1s ease-in-out forwards; }
@@ -56,7 +56,7 @@ ul.social-media .fa-rss:hover { -webkit-animation: rss 1s ease-in-out forwards; 
 @-webkit-keyframes github { 0% { color: white; }
   50% { color: #333333; }
   100% { color: #3CA2A2; } }
-@-webkit-keyframes stack-overflow { 0% { color: white; }
+@-webkit-keyframes facebook { 0% { color: white; }
   50% { color: #fe7a15; }
   100% { color: #3CA2A2; } }
 @-webkit-keyframes linkedin { 0% { color: white; }
