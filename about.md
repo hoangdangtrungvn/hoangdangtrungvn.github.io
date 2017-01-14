@@ -4,7 +4,7 @@ title: Giới thiệu
 ---
 # Giới Thiệu
 
-#### **Về bản thân**
+### **Về bản thân**
 
 Chào các bạn, tôi là **Hoàng Đăng Trung,** tác giả của blog Đăng Trung IT.
 
@@ -14,7 +14,7 @@ Tôi là một developer chuyên về C#, tuy nhiên tôi cũng hay nghiên cứ
 
 ![Hoàng Đăng Trung]({{ site.baseurl | prepend:site.url}}/images/hoang_dang_trung.jpg){: .center-image }*Tôi đứng thứ hai từ trái qua*
 
-#### **Về blog này**
+### **Về blog này**
 
 Là một developer chắc chắn tôi sẽ có những kiến thức, kinh nghiệm thu được trong quá trình học tập cũng như làm việc và đó là những thứ tôi sẽ viết trong blog này.
 
