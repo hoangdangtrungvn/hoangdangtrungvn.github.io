@@ -39,6 +39,8 @@ ul.sideBarPosts li:before { content: '\f15c'; font-family: 'FontAwesome'; float:
 
 img { display: inline-block; margin: 0 auto; max-width: 100%; max-height: 100%; }
 
+img + em { display: block; margin-left: auto; margin-right: auto; text-align: center; }
+
 blockquote { color: #bbb; font-size: 1em; }
 
 a { color: #3CA2A2; }
