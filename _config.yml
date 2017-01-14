@@ -4,7 +4,7 @@ name: Đăng Trung IT
 description: Blog chuyên về công nghệ thông và những vấn đề xung quanh
 
 # Url is currently only used only for the RSS feed in feed.xml
-url: https://hoangdangtrungvn.github.io
+url: http://dangtrungit.tk
 
 # For a project page here should be a project name. Otherwise (for user's/organizaion's page leave it empty)
 baseurl: ''
