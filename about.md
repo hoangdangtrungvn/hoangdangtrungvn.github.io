@@ -2,6 +2,9 @@
 layout: page 
 title: Giới thiệu
 ---
+
+{::options auto_ids="false" /}
+
 # **Giới Thiệu**
 
 ## **Về bản thân**
