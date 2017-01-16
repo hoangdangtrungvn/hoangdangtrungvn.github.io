@@ -31,8 +31,6 @@ ul.sideBarPosts li:before { content: '\f15c'; font-family: 'FontAwesome'; float:
 
 .main-page { width: 75%; }
 
-.well h1 { color: #ddd; }
-
 .author { color: #ee4444; }
 
 .author a { color: #ee4444; }
