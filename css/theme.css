@@ -1,4 +1,4 @@
-body { padding-top: 80px; color: #292929; background: #ddd url(./pics/random-grey-variations.png); }
+body { padding-top: 80px; background: #ddd url(./pics/random-grey-variations.png); }
 
 h1 { font-size: 2em; }
 
@@ -22,8 +22,8 @@ h6 { font-size: .75em; }
 .sidebar li { margin-top: .7em; line-height: 1em; }
 
 ul.sideBarTags, ul.sideBarPosts { list-style: none; }
-ul.sideBarTags li:before { content: '\f02b'; font-family: 'FontAwesome'; float: left; margin-left: -1.5em; color: #ddd; }
-ul.sideBarPosts li:before { content: '\f15c'; font-family: 'FontAwesome'; float: left; margin-left: -1.5em; color: #ddd; }
+ul.sideBarTags li:before { content: '\f02b'; font-family: 'FontAwesome'; float: left; margin-left: -1.5em; color: #333; }
+ul.sideBarPosts li:before { content: '\f15c'; font-family: 'FontAwesome'; float: left; margin-left: -1.5em; color: #333; }
 
 .well { background-color: #fff; box-shadow: 0px 0px 0px 0px, 0px 8px 16px rgba(0, 0, 0, 0.2); border: 0px; border-radius: 6px; }
 
