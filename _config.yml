@@ -6,6 +6,8 @@ description: Blog chuyên về công nghệ thông tin và những vấn đề x
 # Url is currently only used only for the RSS feed in feed.xml
 url: http://dangtrungit.tk
 
+github_url: https://hoangdangtrungvn.github.io
+
 # For a project page here should be a project name. Otherwise (for user's/organizaion's page leave it empty)
 baseurl: ''
 
