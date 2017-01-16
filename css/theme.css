@@ -88,6 +88,8 @@ nav a { padding-top: 20px !important; padding-bottom: 20px !important; font-size
 
 nav.navbar { border-top: 3px #3CA2A2 solid; -webkit-transition: all 0.4s ease; transition: all 0.4s ease; background-color: #428bca; border-color: #317ab9; }
 
+nav.navbar .navbar-brand, nav.navbar .navbar-nav>li>a { color: #fff; }
+
 nav.navbar.shrink { min-height: 15px; }
 
 .navbar-brand { font-size: 30px; }
