@@ -25,7 +25,7 @@ ul.sideBarTags, ul.sideBarPosts { list-style: none; }
 ul.sideBarTags li:before { content: '\f02b'; font-family: 'FontAwesome'; float: left; margin-left: -1.5em; color: #ddd; }
 ul.sideBarPosts li:before { content: '\f15c'; font-family: 'FontAwesome'; float: left; margin-left: -1.5em; color: #ddd; }
 
-.well { background-color: #444; box-shadow: 0px 0px 0px 0px, 0px 8px 16px rgba(0, 0, 0, 0.2); border: 0px; border-radius: 6px; }
+.well { background-color: #fff; box-shadow: 0px 0px 0px 0px, 0px 8px 16px rgba(0, 0, 0, 0.2); border: 0px; border-radius: 6px; }
 
 .well > main-page { width: 75%; }
 
@@ -42,8 +42,6 @@ img { display: inline-block; margin: 0 auto; max-width: 100%; max-height: 100%; 
 img + em { display: block; margin-left: auto; margin-right: auto; text-align: center; }
 
 blockquote { color: #bbb; font-size: 1em; }
-
-a { color: #3CA2A2; }
 
 ul.social-media { text-align: center; padding: 0; }
 ul.social-media li { display: inline-block; }
@@ -86,7 +84,7 @@ a.page.active { border: none; background: #2f3237; box-shadow: inset 0px 0px 8px
 
 nav a { padding-top: 20px !important; padding-bottom: 20px !important; font-size: 18px; font-family: 'Maven Pro', sans-serif; -webkit-transition: color 0.4s; -moz-transition: color 0.4s; -ms-transition: color 0.4s; -o-transition: color 0.4s; transition: color 0.4s; -webkit-transition: all 0.4s ease; transition: all 0.4s ease; }
 
-nav.navbar { border-top: 3px #3CA2A2 solid; -webkit-transition: all 0.4s ease; transition: all 0.4s ease; background-color: #428bca; border-color: #317ab9; }
+nav.navbar { -webkit-transition: all 0.4s ease; transition: all 0.4s ease; background-color: #428bca; border-color: #317ab9; }
 
 nav.navbar .navbar-brand, nav.navbar .navbar-nav>li>a { color: #fff; }
 
