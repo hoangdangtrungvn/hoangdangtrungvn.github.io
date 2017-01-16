@@ -108,7 +108,7 @@ nav.shrink .navbar-toggle { padding: 4px 5px; margin: 8px 15px 8px 0; }
   .footer-distributed .footer { text-align: center; }
   .footer-distributed .footer { float: none; margin: 0 auto 20px; }
   .footer-distributed .footer { line-height: 1.8; } }
-  .footer-distributed { background-color: #428bca; font: normal 16px sans-serif; padding: 20px 25px; text-align: center; width: 100%; }
+  .footer-distributed { background-color: #428bca; color: #fff; font: normal 16px sans-serif; padding: 20px 25px; text-align: center; width: 100%; }
 
 .center-image { margin: 0 auto; display: block; }
 
