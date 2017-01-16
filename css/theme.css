@@ -86,6 +86,8 @@ nav.navbar { -webkit-transition: all 0.4s ease; transition: all 0.4s ease; backg
 
 nav.navbar .navbar-brand, nav.navbar .navbar-nav>li>a { color: #fff; }
 
+nav.navbar .navbar-brand:hover, nav.navbar .navbar-nav>li>a:hover { color: #ddd; }
+
 nav.navbar.shrink { min-height: 15px; }
 
 .navbar-brand { font-size: 30px; }
