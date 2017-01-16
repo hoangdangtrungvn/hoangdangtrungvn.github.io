@@ -18,7 +18,7 @@ h6 { font-size: .75em; }
 
 .footer a { color: #ee4444; }
 
-.sidebar { margin-bottom: 20px }
+.sidebar { margin-bottom: 20px; background-color: #fff; padding: 19px; border-radius: 6px; box-shadow: 0px 0px 0px 0px, 0px 8px 16px rgba(0, 0, 0, 0.2); min-height: 20px; }
 .sidebar li { margin-top: .7em; line-height: 1em; }
 
 ul.sideBarTags, ul.sideBarPosts { list-style: none; }
