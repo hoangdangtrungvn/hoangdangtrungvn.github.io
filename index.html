@@ -23,7 +23,6 @@ layout: page
 {% endfor %}
 {% if paginator.total_pages > 1 %}
 	<div class="text-center">
-		<!-- Pagination links -->
 		<ul class="pagination">
 			{% if paginator.previous_page %}
 				<li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&lsaquo;</a></li>
