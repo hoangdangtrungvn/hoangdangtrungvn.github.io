@@ -21,9 +21,10 @@ h6 { font-size: .75em; }
 
 .sidebar ul { list-style: none; }
 .sidebar li { margin-top: .7em; line-height: 1em; }
-.sidebar li:before { font-family: 'FontAwesome'; float: left; margin-left: -1.5em; color: #888; }
-.sidebar .posts li:before { content: '\f15c'; }
-.sidebar .tags li:before { content: '\f02b'; }
+
+.posts li:before, .tags li:before { font-family: 'FontAwesome'; float: left; margin-left: -1.5em; color: #888; }
+.posts li:before { content: '\f15c'; }
+.tags li:before { content: '\f02b'; }
 
 .well { background-color: #fff; }
 

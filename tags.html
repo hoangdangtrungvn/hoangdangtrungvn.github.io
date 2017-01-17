@@ -6,7 +6,7 @@ title: Thẻ tags
 <div class="page-content wc-container">
 	<div class="post">
 		<h1>Thẻ Tags</h1>
-		<ul class="sideBarTags">
+		<ul class="tags">
 			{% assign tags = (site.tags | sort:0) %}
 			{% for tag in tags %}
 				<li><a href="{{site.baseurl}}/tag/{{ tag[0] }}" data-toggle="tooltip" data-placement="right" title="{{ tag[1].size }}">{{ tag[0] }}</a></li>
