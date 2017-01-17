@@ -61,6 +61,7 @@ ul.social-media .fa-rss:hover { -webkit-animation: rss 1s ease-in-out forwards; 
   100% { color: #FF6600; } }
 
 .post-meta { border: 1px dotted #666666; border-width: 1px 0; margin: 0 0 5px; }
+.post-meta .post-time { display: inline; }
 .post-meta ul { display: inline; padding-left: 0; float: right; }
 .post-meta ul > li { display: inline; padding-left: 10px; }
 .post-descr { margin-bottom: 19px; }
