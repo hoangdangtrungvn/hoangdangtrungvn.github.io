@@ -1,5 +1,6 @@
 .highlight { margin-bottom: 20px; }
-.highlight pre { margin: 0; padding: 10px; border: none; }
+.highlight pre { position: relative; margin: 0; padding: 10px; overflow-x: auto; word-wrap: normal; border: none; white-space: pre; }
+.highlight pre code { white-space: pre; }
 
 /* line numbers */
 .lineno { border-right: dashed 1px #A9B7C6 !important; color: #A9B7C6; padding-left: 0 !important; }
