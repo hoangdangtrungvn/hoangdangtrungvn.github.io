@@ -1,4 +1,4 @@
-body { padding-top: 80px; background-color: #ddd; }
+body { padding-top: 80px; background-color: #f5f5f5; }
 
 h1, h2, h3, h4, h5, h6 { margin-top: 0; }
 
@@ -27,7 +27,7 @@ ul.sideBarTags, ul.sideBarPosts { list-style: none; }
 ul.sideBarTags li:before { content: '\f02b'; font-family: 'FontAwesome'; float: left; margin-left: -1.5em; color: #888; }
 ul.sideBarPosts li:before { content: '\f15c'; font-family: 'FontAwesome'; float: left; margin-left: -1.5em; color: #888; }
 
-.well { background-color: #fff; border-radius: 6px; }
+.well { background-color: #fff; border-radius: 6px; border: 1px solid #ccc; }
 
 .well > main-page { width: 75%; }
 

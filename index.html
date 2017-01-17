@@ -28,22 +28,22 @@ layout: page
 <div class="post-footer">
 	{% if paginator.total_pages > 1 %}
 		<!-- Pagination links -->
-		<div class="pagination">
+		<ul class="pagination">
 			{% if paginator.previous_page %}
-				<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="page">&lsaquo;</a>
+				<li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&lsaquo;</a></li>
 			{% endif %}
 			{% for page in (1..paginator.total_pages) %}
 				{% if page == paginator.page %}
-					<a class="page active">{{ page }}</a>
+					<li class="active"><a>{{ page }}</a></li>
 				{% elsif page == 1 %}
-					<a class="page" href="{{ site.baseurl | prepend:site.url }}/">{{ page }}</a>
+					<li><a href="{{ site.baseurl | prepend:site.url }}/">{{ page }}</a></li>
 				{% else %}
-					<a class="page" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+					<li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
 				{% endif %}
 			{% endfor %}
 			{% if paginator.next_page %}
-				<a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="page">&rsaquo;</a>
+				<li><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&rsaquo;</a></li>
 			{% endif %}
-		</div>
+		</ul>
 	{% endif %}
 </div>
