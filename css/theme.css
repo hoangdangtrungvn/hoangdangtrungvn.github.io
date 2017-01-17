@@ -20,12 +20,11 @@ h6 { font-size: .75em; }
 .footer a { color: #ee4444; }
 
 .sidebar { padding: 19px 0 0; }
+.sidebar ul { list-style: none; }
 .sidebar li { margin-top: .7em; line-height: 1em; }
-.sidebar .posts ul, .sidebar .tags ul { list-style: none; }
-.sidebar .posts ul > li, .sidebar .tags ul > li{ margin-top: .7em; line-height: 1em; }
-
-ul.sideBarTags li:before { content: '\f02b'; font-family: 'FontAwesome'; float: left; margin-left: -1.5em; color: #888; }
-ul.sideBarPosts li:before { content: '\f15c'; font-family: 'FontAwesome'; float: left; margin-left: -1.5em; color: #888; }
+.sidebar li:before { font-family: 'FontAwesome'; float: left; margin-left: -1.5em; color: #888; }
+.sidebar .posts li:before { content: '\f15c'; }
+.sidebar .tags li:before { content: '\f02b'; }
 
 .well { background-color: #fff; }
 
