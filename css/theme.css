@@ -28,11 +28,11 @@ h6 { font-size: .75em; }
 
 .well { background-color: #fff; }
 
-img { display: inline-block; margin: 0 auto; max-width: 100%; max-height: 100%; }
-
-img + em { display: block; margin-left: auto; margin-right: auto; text-align: center; }
-
 blockquote { font-size: 14px; }
+
+img { display: inline-block; margin: 0 auto; max-width: 100%; max-height: 100%; }
+img + em { display: block; margin-left: auto; margin-right: auto; text-align: center; }
+.center-image { margin: 0 auto; display: block; }
 
 ul.social-media { text-align: center; padding: 0; }
 ul.social-media li { display: inline-block; }
@@ -78,12 +78,8 @@ ul.social-media .fa-rss:hover { -webkit-animation: rss 1s ease-in-out forwards; 
   .footer-distributed .footer { line-height: 1.8; } }
   .footer-distributed { background-color: #428bca; color: #fff; font: normal 16px sans-serif; padding: 20px 25px; text-align: center; width: 100%; }
 
-.center-image { margin: 0 auto; display: block; }
-
-.note { position: relative; border: 0; padding-left: 30px; }
-
+.note, .warning { position: relative; border: 0; padding-left: 30px; }
 .note:before { content: "\f06a"; font-size: 2em; font-family: FontAwesome; left: 0px; position: absolute; top: 0; color: #87CEFA; }
-
 .warning:before { content: "\f071"; color: yellow; }
 
 .share-bar { text-align: right; }
@@ -103,5 +99,3 @@ ul.share-buttons li:hover { -webkit-transform: scale(1.3, 1.3); -moz-transform: 
 .key { box-shadow: 1px 0 1px 0 #eee, 0 2px 0 2px #ccc, 0 2px 0 3px #444; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; margin: 2px 3px; padding: 0px 5px; background-color: #F7F7F7; color: #404040; font-size:1.2em; }
 
 .filename { padding: 0px; margin: 0px; background-color: #292929; color: lightgrey; border-top-left-radius: 3px; border-top-right-radius: 3px; margin-bottom: 0px; padding-left: 1em; font-family: Menlo,Monaco,Consolas,"Courier New",monospace; border-left: 0px; bottom: -2px; position: relative; padding-bottom: 2px; }
-
-hr { border-color: #666; }
