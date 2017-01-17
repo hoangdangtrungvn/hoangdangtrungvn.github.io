@@ -76,15 +76,11 @@ a.page.active { border: none; background: #2f3237; box-shadow: inset 0px 0px 8px
 
 .post-footer { width: 100%; position: relative; text-align: center; }
 
-nav a { font-size: 18px; font-family: 'Maven Pro', sans-serif; -webkit-transition: color 0.4s; -moz-transition: color 0.4s; -ms-transition: color 0.4s; -o-transition: color 0.4s; transition: color 0.4s; -webkit-transition: all 0.4s ease; transition: all 0.4s ease; }
-
-nav.navbar { -webkit-transition: all 0.4s ease; transition: all 0.4s ease; background-color: #428bca; border-color: #317ab9; }
-
-nav.navbar .navbar-brand, nav.navbar .navbar-nav>li>a { color: #fff; }
-
-nav.navbar .navbar-brand:hover, nav.navbar .navbar-nav>li>a:hover { color: #ddd; }
-
-.navbar-brand { font-size: 24px; }
+.navbar { background-color: #428bca; border-color: #317ab9; }
+.navbar a { font-size: 18px; font-family: 'Maven Pro', sans-serif; }
+.navbar .navbar-brand, .navbar .navbar-nav>li>a { color: #fff; }
+.navbar .navbar-brand { font-size: 24px; }
+.navbar .navbar-brand:hover, .navbar .navbar-brand:focus, .navbar .navbar-nav>li>a:hover, .navbar .navbar-nav>li>a:focus { color: #ddd; }
 
 @media (min-width: 1000px) { .twoRow .navbar-collapse { clear: left; }
   .footer-distributed .footer { text-align: center; }
