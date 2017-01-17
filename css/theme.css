@@ -27,15 +27,7 @@ ul.sideBarTags, ul.sideBarPosts { list-style: none; }
 ul.sideBarTags li:before { content: '\f02b'; font-family: 'FontAwesome'; float: left; margin-left: -1.5em; color: #888; }
 ul.sideBarPosts li:before { content: '\f15c'; font-family: 'FontAwesome'; float: left; margin-left: -1.5em; color: #888; }
 
-.well { background-color: #fff; border-radius: 6px; border: 1px solid #ccc; }
-
-.well > main-page { width: 75%; }
-
-.main-page { width: 75%; }
-
-.author { color: #ee4444; }
-
-.author a { color: #ee4444; }
+.well { background-color: #fff; }
 
 img { display: inline-block; margin: 0 auto; max-width: 100%; max-height: 100%; }
 
