@@ -61,19 +61,11 @@ ul.social-media .fa-rss:hover { -webkit-animation: rss 1s ease-in-out forwards; 
 @-webkit-keyframes rss { 0% { color: white; }
   100% { color: #FF6600; } }
 
-div.post-meta { border: 1px dotted #666666; border-width: 1px 0; margin: 0 0 5px; }
-div.post-meta ul { display: inline; padding-left: 0px; float: right; }
-div.post-meta ul > li { display: inline; padding: 0 0 5px 20px; }
-div.post-meta .post-time { display: inline; }
-
-div.post-descr { margin-bottom: 19px; }
-
-a.page { display: inline-block; line-height: 31px; padding: 0px 9px; margin-right: 4px; border-radius: 3px; font-size: .875em; font-weight: bold; border: solid 1px #32373b; background: #3e4347; box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.1); color: #feffff; text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5); text-decoration: none; }
-
-a.page:hover, a.page.gradient:hover { background: #3d4f5d; background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#547085), to(#3d4f5d)); background: -moz-linear-gradient(0% 0% 270deg, #547085, #3d4f5d); text-decoration: none; }
-
-a.page.active { border: none; background: #2f3237; box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 0.1); }
-
+.post-meta { border: 1px dotted #666666; border-width: 1px 0; margin: 0 0 5px; }
+.post-meta ul { display: inline; padding-left: 0px; float: right; }
+.post-meta ul > li { display: inline; padding: 0 0 5px 20px; }
+.post-meta .post-time { display: inline; }
+.post-descr { margin-bottom: 19px; }
 .post-footer { width: 100%; position: relative; text-align: center; }
 
 .navbar { background-color: #428bca; border-color: #317ab9; }
