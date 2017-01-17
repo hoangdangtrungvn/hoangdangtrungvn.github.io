@@ -72,11 +72,7 @@ ul.social-media .fa-rss:hover { -webkit-animation: rss 1s ease-in-out forwards; 
 .navbar .navbar-brand { font-size: 24px; }
 .navbar .navbar-brand:hover, .navbar .navbar-brand:focus, .navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus { color: #ddd; }
 
-@media (min-width: 1000px) { .twoRow .navbar-collapse { clear: left; }
-  .footer-distributed .footer { text-align: center; }
-  .footer-distributed .footer { float: none; margin: 0 auto 20px; }
-  .footer-distributed .footer { line-height: 1.8; } }
-  .footer-distributed { background-color: #428bca; color: #fff; font: normal 16px sans-serif; padding: 20px 25px; text-align: center; width: 100%; }
+.footer { font: normal 16px sans-serif; padding: 20px; }
 
 .note, .warning { position: relative; border: 0; padding-left: 30px; }
 .note:before { content: "\f06a"; font-size: 2em; font-family: FontAwesome; left: 0px; position: absolute; top: 0; color: #87CEFA; }
