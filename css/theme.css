@@ -14,11 +14,6 @@ h5 { font-size: .83em; }
 
 h6 { font-size: .75em; }
 
-.copyright { color: #ffffff; }
-
-.footer { text-align: center; }
-.footer a { color: #000; }
-
 .sidebar li { margin-top: .7em; line-height: 1em; }
 
 .posts, .tags { list-style: none; }
@@ -34,9 +29,9 @@ img { display: inline-block; margin: 0 auto; max-width: 100%; max-height: 100%; 
 img + em { display: block; margin-left: auto; margin-right: auto; text-align: center; }
 .center-image { margin: 0 auto; display: block; }
 
-ul.social-media { text-align: center; padding: 0; }
+ul.social-media { margin: 0; padding: 0; }
 ul.social-media li { display: inline-block; }
-ul.social-media li > a { margin-left: 0.8em; margin-right: 0.8em; display: inline-block; color: white; }
+ul.social-media li > a { margin-left: 0.8em; margin-right: 0.8em; display: inline-block; color: #fff; }
 ul.social-media .fa-github:hover { -webkit-animation: github 1s ease-in-out forwards; animation: github 1s ease-in-out forwards; }
 ul.social-media .fa-facebook:hover { -webkit-animation: facebook 1s ease-in-out forwards; animation: facebook 1s ease-in-out forwards; }
 ul.social-media .fa-linkedin:hover { -webkit-animation: linkedin 1s ease-in-out forwards; animation: linkedin 1s ease-in-out forwards; }
