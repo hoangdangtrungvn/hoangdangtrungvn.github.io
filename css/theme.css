@@ -84,11 +84,7 @@ nav.navbar .navbar-brand, nav.navbar .navbar-nav>li>a { color: #fff; }
 
 nav.navbar .navbar-brand:hover, nav.navbar .navbar-nav>li>a:hover { color: #ddd; }
 
-.navbar-brand { font-size: 30px; }
-
-.navbar .navbar-nav { display: inline-block; float: right; }
-
-nav .navbar-toggle { margin: 13px 15px 13px 0; }
+.navbar-brand { font-size: 24px; }
 
 @media (min-width: 1000px) { .twoRow .navbar-collapse { clear: left; }
   .footer-distributed .footer { text-align: center; }
