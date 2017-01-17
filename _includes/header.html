@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="vi">
 <head>
 	<title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+	<meta name="author" content="{{ site.author }}">
 	<meta property="og:url" content="{{ site.url | append: site.baseurl | append: page.url }}" />
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content="{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}" />
@@ -19,6 +21,10 @@
 	<link href="{{site.baseurl | prepend:site.url}}/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Maven+Pro&amp;subset=vietnamese" rel="stylesheet">
 	<link rel="shortcut icon" type="image/x-icon" href="{{site.baseurl | prepend:site.url}}/favicon.ico?">
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
 </head>
 <body>
 	{% include google-analytics.html %}
