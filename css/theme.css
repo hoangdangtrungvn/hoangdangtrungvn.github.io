@@ -76,7 +76,7 @@ a.page.active { border: none; background: #2f3237; box-shadow: inset 0px 0px 8px
 
 .post-footer { width: 100%; position: relative; text-align: center; }
 
-nav a { padding-top: 20px !important; padding-bottom: 20px !important; font-size: 18px; font-family: 'Maven Pro', sans-serif; -webkit-transition: color 0.4s; -moz-transition: color 0.4s; -ms-transition: color 0.4s; -o-transition: color 0.4s; transition: color 0.4s; -webkit-transition: all 0.4s ease; transition: all 0.4s ease; }
+nav a { font-size: 18px; font-family: 'Maven Pro', sans-serif; -webkit-transition: color 0.4s; -moz-transition: color 0.4s; -ms-transition: color 0.4s; -o-transition: color 0.4s; transition: color 0.4s; -webkit-transition: all 0.4s ease; transition: all 0.4s ease; }
 
 nav.navbar { -webkit-transition: all 0.4s ease; transition: all 0.4s ease; background-color: #428bca; border-color: #317ab9; }
 
