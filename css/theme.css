@@ -66,8 +66,7 @@ ul.social-media .fa-rss:hover { -webkit-animation: rss 1s ease-in-out forwards; 
 .navbar .navbar-brand, .navbar .navbar-nav>li>a { color: #fff; }
 .navbar .navbar-brand { font-size: 24px; }
 .navbar .navbar-brand:hover, .navbar .navbar-brand:focus, .navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus { color: #ddd; }
-.navbar .navbar-toggle { border-color: #3790de; }
-.navbar .navbar-toggle:focus, .navbar .navbar-toggle:hover { background-color: #3790de; }
+.navbar .navbar-toggle:focus, .navbar .navbar-toggle:hover { background-color: #63a0d6; }
 .navbar .navbar-toggle .icon-bar { background-color: #fff; }
 
 .footer { font: normal 16px sans-serif; padding: 20px; }
