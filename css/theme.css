@@ -70,7 +70,8 @@ ul.social-media .fa-rss:hover { -webkit-animation: rss 1s ease-in-out forwards; 
 .footer { font: normal 16px sans-serif; padding: 20px; }
 
 .note, .warning { position: relative; border: 0; padding-left: 30px; }
-.note:before { content: "\f06a"; font-size: 2em; font-family: FontAwesome; left: 0px; position: absolute; top: 0; color: #87CEFA; }
+.note:before, .warning:before { font-size: 2em; font-family: FontAwesome; left: 0px; position: absolute; top: 0; }
+.note:before { content: "\f06a"; color: #87CEFA; }
 .warning:before { content: "\f071"; color: yellow; }
 
 .share-bar { text-align: right; }
