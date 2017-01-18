@@ -2,8 +2,24 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-8">
-			<div class="well">
-				{{ content }}
+			<div class="row">
+				<div class="col-md-12">
+					<form action="{{ site.url | append: site.baseurl }}/search" method="get">
+						<div class="form-group input-group">
+							<input type="text" class="form-control" name="q" placeholder="Nhập nội dung cần tìm...">
+							<span class="input-group-btn">
+								<button class="btn btn-info" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+							</span>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="well">
+						{{ content }}
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="col-md-4 hidden-xs">
