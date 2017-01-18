@@ -1,7 +1,7 @@
 code { border: 1px solid #bbb; background-color:#f5f5f5; }
 
-.highlight { margin-bottom: 20px; border-radius: 4px; border: 1px solid #bbb; }
-.highlight pre { position: relative; margin: 0; padding: 10px; overflow-x: auto; word-wrap: normal; border: none; white-space: pre; }
+.highlight { margin-bottom: 20px; border: 1px solid #bbb; }
+.highlight pre { position: relative; margin: 0; padding: 10px; overflow-x: auto; word-wrap: normal; border: none; border-radius: 0; white-space: pre; }
 .highlight pre code { white-space: pre; border:none }
 
 /* line numbers */
