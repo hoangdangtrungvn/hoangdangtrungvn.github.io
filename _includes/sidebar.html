@@ -1,21 +1,8 @@
-				<div class="sidebar well">
-					<h2>Bài Viết Mới</h2>
-					<ul class="posts">
-						{% for post in site.posts limit:5 %}
-							<li><a href="{{ post.url | prepend: site.baseurl | prepend: site.url}}">{{ post.title }}</a></li>
-						{% endfor %}
-					</ul>
-				</div>
-				<div class="sidebar well">
-					<h2>Thẻ Tags</h2>
-					<ul class="tags">
-						{% assign tags = (site.tags | sort:0) %}
-						{% for tag in tags %}
-							<li>
-								<a href="{{ site.baseurl | prepend: site.url}}/tag/{{ tag[0] }}" data-toggle="tooltip" data-placement="right" title="{{ tag[1].size }}">
-									<span>{{tag[0] }}</span>
-								</a>
-							</li>
-						{% endfor %}
-					</ul>
-				</div>
+<div class="well">
+	<h2>Bài Viết Mới</h2>
+	<ul class="posts">
+		{% for post in site.posts limit:10 %}
+			<li><a href="{{ post.url | prepend: site.baseurl | prepend: site.url}}">{{ post.title }}</a></li>
+		{% endfor %}
+	</ul>
+</div>
