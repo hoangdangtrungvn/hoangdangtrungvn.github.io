@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Trích dẫn code trong jekyll
+title: Trích dẫn code
 date: 2017-01-22 20:45:00
 tags: [code, jekyll]
-description: Hướng dẫn trích dẫn code có hiển thị số dòng hoặc không hiển thị số dòng trong jekyll.
+description: Hướng dẫn trích dẫn code có hiển thị số dòng hoặc không hiển thị số dòng.
 ---
 
 # Hướng dẫn trích dẫn code

@@ -1,19 +1,18 @@
 ---
 layout: post
-title: Định dạng văn bản trong jekyll
+title: Định dạng văn bản
 date: 2017-01-18 21:41:00
 tags: jekyll
-description: Các ví dụ về định dạng văn bản trong jekyll.
+description: Các ví dụ về định dạng văn bản.
 ---
 
-# Các ví dụ định dạng văn bản trong jekyll
+# Các ví dụ định dạng văn bản
 
 Một số ví dụ định dạng văn bản đối với các đối tượng văn bản thông thường.
 
 # Các tiêu đề
 
-Trong html để định dạng tiêu đề ta dùng các thẻ `<h1>` đến `<h6>`. Trong jekyll ta sử dụng ký tự # trước nội dung tiêu đề.
-Sử dụng một ký tự # tương ứng với thẻ `<h1>`, hai ký tự # tương ứng với thẻ `<h2>`. Tương tự với các thẻ `<h3>` đến `<h6>`. Tối đa là sáu ký tự #.
+Trong html để định dạng tiêu đề ta dùng các thẻ `<h1>` đến `<h6>`. Trong Jekyll Light Theme ta sử dụng ký tự # trước nội dung tiêu đề. Sử dụng một ký tự # tương ứng với thẻ `<h1>`, hai ký tự # tương ứng với thẻ `<h2>`. Tương tự với các thẻ `<h3>` đến `<h6>`. Tối đa là sáu ký tự #.
 
 # Tiêu đề 1
 
