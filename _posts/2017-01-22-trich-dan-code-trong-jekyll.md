@@ -1,15 +1,16 @@
 ---
 layout: post
 title: Trích dẫn code trong jekyll
-date: 2016-10-01 16:25:06
+date: 2017-01-22 20:45:00
 tags: [code, jekyll]
-description: Sample post showing how code samples would look like
+description: Hướng dẫn trích dẫn code có hiển thị số dòng hoặc không hiển thị số dòng trong jekyll.
 ---
 
 # Hướng dẫn trích dẫn code
 
 Để trích dẫn code ta sử dụng: `{{ "{%" }} highlight tên_ngôn_ngữ %}`.
-Ví dụng với mã JSON:
+
+Ví dụng với mã JSON: `{{ "{%" }} highlight json %}`.
 {% highlight json %}
 {"employees":[
     {"hoTen":"Hoàng Đăng Trung", "ngaySinh":"05/03/1994"},
