@@ -11,6 +11,7 @@ description: Hướng dẫn trích dẫn code có hiển thị số dòng hoặc
 Để trích dẫn code ta sử dụng: `{{ "{%" }} highlight tên_ngôn_ngữ %}`.
 
 Ví dụng với mã JSON: `{{ "{%" }} highlight json %}`.
+
 {% highlight json %}
 {"employees":[
     {"hoTen":"Hoàng Đăng Trung", "ngaySinh":"05/03/1994"},
@@ -20,6 +21,7 @@ Ví dụng với mã JSON: `{{ "{%" }} highlight json %}`.
 {% endhighlight json %}
 
 Hiển thị số dòng sử dụng: `{{ "{%" }} highlight tên_ngôn_ngữ linenos %}`.
+
 {% highlight json linenos %}
 {"employees":[
     {"hoTen":"Hoàng Đăng Trung", "ngaySinh":"05/03/1994"},
