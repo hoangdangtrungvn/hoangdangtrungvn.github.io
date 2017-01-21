@@ -1,28 +1,31 @@
 ---
 layout: post
-title: Định dạng văn bản
+title: Định dạng văn bản trong jekyll
 date: 2017-01-18 21:41:00
 tags: jekyll
-description: Các ví dụ về định dạng văn bản khi viết bài.
+description: Các ví dụ về định dạng văn bản trong jekyll.
 ---
 
-# Các ví dụ định dạng văn bản
+# Các ví dụ định dạng văn bản trong jekyll
 
 Một số ví dụ định dạng văn bản đối với các đối tượng văn bản thông thường.
 
 # Các tiêu đề
 
-# Header1
+Trong html để định dạng tiêu đề ta dùng các thẻ <h1> đến <h6>. Trong jekyll ta sử dụng ký tự # trước nội dung tiêu đề.
+Sử dụng một ký tự # tương ứng với thẻ <h1>, hai ký tự # tương ứng với thẻ <h2>. Tương tự với các thẻ <h3> đến <h6>. Tối đa là sáu ký tự #.
 
-## Header2
+# Tiêu đề 1
 
-### Header3
+## Tiêu đề 2
 
-#### Header4
+### Tiêu đề 3
 
-##### Header5
+#### Tiêu đề 4
 
-###### Header6
+##### Tiêu đề 5
+
+###### Tiêu đề 6
 
 # Nhấn mạnh
 
