@@ -12,8 +12,8 @@ Một số ví dụ định dạng văn bản đối với các đối tượng 
 
 # Các tiêu đề
 
-Trong html để định dạng tiêu đề ta dùng các thẻ <h1> đến <h6>. Trong jekyll ta sử dụng ký tự # trước nội dung tiêu đề.
-Sử dụng một ký tự # tương ứng với thẻ <h1>, hai ký tự # tương ứng với thẻ <h2>. Tương tự với các thẻ <h3> đến <h6>. Tối đa là sáu ký tự #.
+Trong html để định dạng tiêu đề ta dùng các thẻ `<h1>` đến `<h6>`. Trong jekyll ta sử dụng ký tự # trước nội dung tiêu đề.
+Sử dụng một ký tự # tương ứng với thẻ `<h1>`, hai ký tự # tương ứng với thẻ `<h2>`. Tương tự với các thẻ `<h3>` đến `<h6>`. Tối đa là sáu ký tự #.
 
 # Tiêu đề 1
 
