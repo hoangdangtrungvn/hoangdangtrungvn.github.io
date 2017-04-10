@@ -7,6 +7,6 @@ title: Thẻ tags
 <ul class="tags">
 	{% assign tags = (site.tags | sort:0) %}
 	{% for tag in tags %}
-		<li><a href="{{ site.baseurl | prepend: site.url }}/tag/{{ tag[0] }}" data-toggle="tooltip" data-placement="right" title="{{ tag[1].size }}">{{ tag[0] }}</a></li>
+		<li><a href="{{ site.url | append:site.baseurl }}/tag/{{ tag[0] }}" data-toggle="tooltip" data-placement="right" title="{{ tag[1].size }}">{{ tag[0] }}</a></li>
 	{% endfor %}
 </ul>

@@ -9,7 +9,7 @@ layout: page
 			{% if tag == page.tag %}
 				<li>
 					<time>{{ post.date | date: "%d-%m-%Y" }}</time>
-					<a href='{{post.url | prepend:site.baseurl | prepend:site.url}}'>{{post.title}}</a>
+					<a href='{{ site.url | append:site.baseurl | append:post.url }}'>{{ post.title }}</a>
 					<p>{{post.description}}</p>
 				</li>
 			{% endif %}

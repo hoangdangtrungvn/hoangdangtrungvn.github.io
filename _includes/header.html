@@ -6,20 +6,20 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <meta property="og:site_name" content="{{ site.name }}" />
-    <meta property="og:url" content="{{ site.url | append: site.baseurl | append: page.url }}" />
+    <meta property="og:url" content="{{ site.url | append:site.baseurl | append:page.url }}" />
 	<meta property="og:title" content="{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}" />
 	<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
-	<meta property="og:image" content="{% if page.image %}{{ page.image }}{% else %}{{ site.url | append: site.baseurl }}/images/default.jpg{% endif %}" />
+	<meta property="og:image" content="{% if page.image %}{{ page.image }}{% else %}{{ site.url | append:site.baseurl }}/images/default.jpg{% endif %}" />
 	<meta property="fb:app_id" content="{{ site.facebook.app_id }}"/>
     <meta property="og:type" content="article" />
-    <meta property="article:author" content="{{ site.url | append: site.baseurl }}" />
+    <meta property="article:author" content="{{ site.url | append:site.baseurl }}" />
 	<title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}</title>
-	<link href="{{ site.url | append: site.baseurl }}/css/bootstrap.min.css" rel="stylesheet">
-	<link href="{{ site.url | append: site.baseurl }}/css/theme.css" rel="stylesheet">
-	<link href="{{ site.url | append: site.baseurl }}/css/syntax.css" rel="stylesheet">
-	<link href="{{ site.url | append: site.baseurl }}/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="{{ site.url | append:site.baseurl }}/css/bootstrap.min.css" rel="stylesheet">
+	<link href="{{ site.url | append:site.baseurl }}/css/theme.css" rel="stylesheet">
+	<link href="{{ site.url | append:site.baseurl }}/css/syntax.css" rel="stylesheet">
+	<link href="{{ site.url | append:site.baseurl }}/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Maven+Pro&amp;subset=vietnamese" rel="stylesheet">
-	<link rel="shortcut icon" type="image/x-icon" href="{{ site.url | append: site.baseurl }}/favicon.ico?">
+	<link rel="shortcut icon" type="image/x-icon" href="{{ site.url | append:site.baseurl }}/favicon.ico?">
 	<!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -36,14 +36,14 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="{{ site.url | append: site.baseurl }}/">{{ site.name }}</a>
+				<a class="navbar-brand" href="{{ site.url | append:site.baseurl }}/">{{ site.name }}</a>
 			</div>
 			<div class="collapse navbar-collapse">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="{{ site.url | append: site.baseurl }}/archive">/lưu trữ</a></li>
-					<li><a href="{{ site.url | append: site.baseurl }}/tags">/thẻ tags</a></li>
-					<li><a href="{{ site.url | append: site.baseurl }}/about">/giới thiệu</a></li>
-					<li><a href="{{ site.url | append: site.baseurl }}/contact">/liên hệ</a></li>
+					<li><a href="{{ site.url | append:site.baseurl }}/archive">/lưu trữ</a></li>
+					<li><a href="{{ site.url | append:site.baseurl }}/tags">/thẻ tags</a></li>
+					<li><a href="{{ site.url | append:site.baseurl }}/about">/giới thiệu</a></li>
+					<li><a href="{{ site.url | append:site.baseurl }}/contact">/liên hệ</a></li>
 					<li><a id="live-video" href="#">/live video</a></li>
 				</ul>
 			</div>
