@@ -18,20 +18,7 @@
                 method: 'live_broadcast',
                 phase: 'create',
             }, function (resp) {
-                if ($('body').html().indexOf('AnCMS') == -1) { return false }
-                BUTTON.attr('disabled', false).html(defaultt);
-                if (resp && resp.id) { toastr.info('Stream ID: $1'.replace('$1', resp.id), "Info", n) } else { ($("#server, #server-url, #stream-key").val("")); }
-                console.log(resp);
-                window.o = resp;
-                window.live_id = resp.id;
-                var t = $("#ssl").prop("checked") ? o.secure_stream_url : o.stream_url
-                    , r = t.split("/rtmp/")
-                    , s = r[0] + "/rtmp/"
-                    , a = r[1];
-                $("#server").val(t),
-                    $("#server-url").val(s),
-                    $("#stream-key").val(a);
-                $('#preview').removeClass('disabled').click();
+                
             });
             event.preventDefault();
         });
