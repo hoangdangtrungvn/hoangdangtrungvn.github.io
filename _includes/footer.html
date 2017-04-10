@@ -18,14 +18,17 @@
                 method: 'live_broadcast',
                 phase: 'create',
             }, function (resp) {
-                console.log(resp);
+                if (!resp.id) {
+                    console.log('dialog canceled');
+                    return;
+                }
                 FB.ui({
                     display: 'popup',
                     method: 'live_broadcast',
                     phase: 'publish',
                     broadcast_data: resp,
                 }, function (resp) {
-                    console.log(resp);
+                    console.log("video status: \n" + resp.status);
                 });
             });
             event.preventDefault();
